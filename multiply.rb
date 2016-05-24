@@ -1,6 +1,7 @@
 
 require 'sinatra'
 
-get '/hi' do
-  'Hello World!'
+get '/multiply/:x/:y' do |x, y|
+  result  = (x.to_i * y.to_i)
+  "#{result}"
 end
