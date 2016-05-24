@@ -1,1 +1,1 @@
-multipy: bundle exec ruby multiply.rb -p $PORT
+web: bundle exec ruby multiply.rb -p $PORT
